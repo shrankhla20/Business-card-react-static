@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+.About--img {
+top: 15px;
+width: 317px;
+height: 317px;
+left: 116px;
+position: absolute;
+
+background: url(.png);
+border-radius: 10px 10px 0px 0px;
+}
+.App1{
+  align-items: center;
+  position: absolute;
+  width: 550px;
+  height: 768px;
+  left: 65px;
+  top: 53px;
+
+  background: #23252C;
+}
+body{
+  position: absolute;
+}
+.info{
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  position: absolute;
+  background: #1A1B21;
+}
+.About{
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 3000px;
+
+  background: #1A1B21;
+}
+.aboutt{
+  background: #1A1B21;
+}
+.About--name{
+  width: 317px;
+height: 25.81px;
+left: 116px;
+top: 312px;
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.About--profile{
+  position: absolute;
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+top: 350px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F3BF99;
+}
+.About--button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  position: absolute;
+  
+  width: 115px;
+  height: 34px;
+  left: 220px;
+  top: 385px;
+
+  /* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+}
+.About--button--email{
+  box-sizing: border-box;
+
+/* white */
+
+  background: #FFFFFF;
+/* gray/300 */
+border: 1px solid #D1D5DB;
+  
+}
+.About--button--LinkedIn{
+
+  box-sizing: border-box;
+  background: #5093E2;
+  border: 1px solid #D1D5DB;
+}
+.footer{
+  position: absolute;
+  width: 317px;
+  height: 67px;
+  left: 116px;
+  top: 640px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.Info--header{
+  position: absolute;
+width: 317px;
+height: 201px;
+left: 116px;
+top: 415px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+  color: #F5F5F5;
+  background: #1A1B21;
+}
+.Info--body{
+  position: absolute;
+width: 317px;
+height: 201px;
+left: 116px;
+top: 445px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+  background: #1A1B21;
+}
+.Interests--header{
+  position: absolute;
+width: 317px;
+height: 201px;
+left: 116px;
+top: 525px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+  color: #F5F5F5;
+}
+.Interests--body{
+  position: absolute;
+width: 317px;
+height: 201px;
+left: 116px;
+top: 555px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+}
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
